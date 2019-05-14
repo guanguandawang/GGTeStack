@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1D21670A0B5CD7A2A264B8D7 /* libPods-GGTeStack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6972B6A2F6E69CA6EBF2603 /* libPods-GGTeStack.a */; };
+		2229C96A228A595900B843E4 /* NSString+GuanG.m in Sources */ = {isa = PBXBuildFile; fileRef = 2229C969228A595900B843E4 /* NSString+GuanG.m */; };
+		2229C96E228A59AE00B843E4 /* GGToolKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2229C96D228A59AE00B843E4 /* GGToolKit.m */; };
 		2249B3EF2283D1C2005C4276 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2249B3EE2283D1C2005C4276 /* AppDelegate.m */; };
 		2249B3F22283D1C2005C4276 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2249B3F12283D1C2005C4276 /* ViewController.m */; };
 		2249B3F52283D1C2005C4276 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2249B3F32283D1C2005C4276 /* Main.storyboard */; };
@@ -42,6 +44,11 @@
 		11269FBCE70F761097DDC868 /* Pods-GGTeStackTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGTeStackTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GGTeStackTests/Pods-GGTeStackTests.release.xcconfig"; sourceTree = "<group>"; };
 		1AC373F9B81ED97BF55615BF /* Pods-GGTeStackTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGTeStackTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GGTeStackTests/Pods-GGTeStackTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1BE7FD86069AC9BF76E5D23D /* Pods-GGTeStack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGTeStack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GGTeStack/Pods-GGTeStack.debug.xcconfig"; sourceTree = "<group>"; };
+		2229C968228A595900B843E4 /* NSString+GuanG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+GuanG.h"; sourceTree = "<group>"; };
+		2229C969228A595900B843E4 /* NSString+GuanG.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+GuanG.m"; sourceTree = "<group>"; };
+		2229C96C228A59AE00B843E4 /* GGToolKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGToolKit.h; sourceTree = "<group>"; };
+		2229C96D228A59AE00B843E4 /* GGToolKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGToolKit.m; sourceTree = "<group>"; };
+		2229C970228A61D200B843E4 /* GGVendorRecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGVendorRecord.h; sourceTree = "<group>"; };
 		2249B3EA2283D1C2005C4276 /* GGTeStack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGTeStack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2249B3ED2283D1C2005C4276 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2249B3EE2283D1C2005C4276 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -93,6 +100,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2229C967228A593400B843E4 /* 分类 */ = {
+			isa = PBXGroup;
+			children = (
+				2229C968228A595900B843E4 /* NSString+GuanG.h */,
+				2229C969228A595900B843E4 /* NSString+GuanG.m */,
+			);
+			path = "分类";
+			sourceTree = "<group>";
+		};
+		2229C96B228A596A00B843E4 /* 工具方法 */ = {
+			isa = PBXGroup;
+			children = (
+				2229C96C228A59AE00B843E4 /* GGToolKit.h */,
+				2229C96D228A59AE00B843E4 /* GGToolKit.m */,
+			);
+			path = "工具方法";
+			sourceTree = "<group>";
+		};
+		2229C96F228A619600B843E4 /* 第三方 */ = {
+			isa = PBXGroup;
+			children = (
+				2229C970228A61D200B843E4 /* GGVendorRecord.h */,
+			);
+			path = "第三方";
+			sourceTree = "<group>";
+		};
 		2249B3E12283D1C2005C4276 = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +160,9 @@
 				2249B3F82283D1C5005C4276 /* LaunchScreen.storyboard */,
 				2249B3FB2283D1C5005C4276 /* Info.plist */,
 				2249B3FC2283D1C5005C4276 /* main.m */,
+				2229C96F228A619600B843E4 /* 第三方 */,
+				2229C96B228A596A00B843E4 /* 工具方法 */,
+				2229C967228A593400B843E4 /* 分类 */,
 			);
 			path = GGTeStack;
 			sourceTree = "<group>";
@@ -381,6 +417,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2229C96A228A595900B843E4 /* NSString+GuanG.m in Sources */,
+				2229C96E228A59AE00B843E4 /* GGToolKit.m in Sources */,
 				2249B3F22283D1C2005C4276 /* ViewController.m in Sources */,
 				2249B3FD2283D1C5005C4276 /* main.m in Sources */,
 				2249B3EF2283D1C2005C4276 /* AppDelegate.m in Sources */,
