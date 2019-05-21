@@ -8,7 +8,8 @@ target 'GGTeStack' do
   
   pod 'WoodPeckeriOS', :configurations => ['Debug']
   pod 'KVOController'
-
+  pod 'BlocksKit'
+  
   # Pods for GGTeStack
 
   target 'GGTeStackTests' do
@@ -50,6 +51,7 @@ end
 #  pod 'Realm'  #数据库
 #  pod 'PinYin4Objc'   #拼音
 #  pod 'KVOController'  # FaceBook KVO（优雅的代替系统原生的KVO）
+#  pod 'BlocksKit'  #改变系统的target+selector模式为 block模式。 带来紧凑的代码风格，高效率的回调执行
 #----------🌹----------开发辅助，性能分析----------🌹----------#
 #  pod 'JPFPSStatus'   #显示FPS状态在iOS状态栏,FPS的值最佳为60左右
 #  pod 'WoodPeckeriOS', :configurations => ['Debug']#调试工具
@@ -107,7 +109,6 @@ end
 #  pod 'DZNEmptyDataSet'   # 空占位
 #  pod 'pop' #pop动画
 #  pod 'UICollectionViewLeftAlignedLayout' # UICollectionView左对齐布局
-#  pod 'BlocksKit'     # UI block
 #  pod 'libextobjc'   # 非常强大的Objective-C库的扩展
 #  pod 'WZLBadge'     # badgeValue
 #  pod 'JSBadgeView'  # badgeValue
@@ -130,7 +131,6 @@ end
 #  pod 'SWTableViewCell'    #Cell滑动，出现多个功能按钮
 #  pod 'MWPhotoBrowser'     #图片浏览器
 #  pod 'WMPageController'
-#  pod 'BlocksKit'  #改变系统的target+selector模式为 block模式。 带来紧凑的代码风格，高效率的回调执行
 #  pod 'CocoaLumberjack'   #优秀的替换NSLog的第三方，更加省资源，并且可以定义打印级别
 #  pod 'Shimmer'    #漂亮的闪光效果
 #  pod 'XXNibBridge'    #视频辅助

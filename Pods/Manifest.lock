@@ -1,16 +1,38 @@
 PODS:
-  - WoodPeckeriOS (1.1.9)
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - KVOController (1.2.0)
+  - WoodPeckeriOS (1.2.0)
 
 DEPENDENCIES:
+  - BlocksKit
+  - KVOController
   - WoodPeckeriOS
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - BlocksKit
+    - KVOController
     - WoodPeckeriOS
 
 SPEC CHECKSUMS:
-  WoodPeckeriOS: 6b08852dd34e6b94ea4a05a5ccfc74a1d621842b
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
+  WoodPeckeriOS: 7fabf5c25fe5da854a662da0a4455e45b9cd2a3c
 
-PODFILE CHECKSUM: 6c7bc6f6c4ed5cdc26b48b1ddcb461d71c5ceebc
+PODFILE CHECKSUM: 2158fd75021e2df4ffac21c022576e711444e51a
 
 COCOAPODS: 1.5.2

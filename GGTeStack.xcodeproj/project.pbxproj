@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1D21670A0B5CD7A2A264B8D7 /* libPods-GGTeStack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6972B6A2F6E69CA6EBF2603 /* libPods-GGTeStack.a */; };
+		22275FCD228EB8440035F740 /* UITableView+GuanG.m in Sources */ = {isa = PBXBuildFile; fileRef = 22275FCC228EB8440035F740 /* UITableView+GuanG.m */; };
 		2229C96A228A595900B843E4 /* NSString+GuanG.m in Sources */ = {isa = PBXBuildFile; fileRef = 2229C969228A595900B843E4 /* NSString+GuanG.m */; };
 		2229C96E228A59AE00B843E4 /* GGToolKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2229C96D228A59AE00B843E4 /* GGToolKit.m */; };
 		2249B3EF2283D1C2005C4276 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2249B3EE2283D1C2005C4276 /* AppDelegate.m */; };
@@ -44,6 +45,8 @@
 		11269FBCE70F761097DDC868 /* Pods-GGTeStackTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGTeStackTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GGTeStackTests/Pods-GGTeStackTests.release.xcconfig"; sourceTree = "<group>"; };
 		1AC373F9B81ED97BF55615BF /* Pods-GGTeStackTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGTeStackTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GGTeStackTests/Pods-GGTeStackTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1BE7FD86069AC9BF76E5D23D /* Pods-GGTeStack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGTeStack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GGTeStack/Pods-GGTeStack.debug.xcconfig"; sourceTree = "<group>"; };
+		22275FCB228EB8440035F740 /* UITableView+GuanG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+GuanG.h"; sourceTree = "<group>"; };
+		22275FCC228EB8440035F740 /* UITableView+GuanG.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+GuanG.m"; sourceTree = "<group>"; };
 		2229C968228A595900B843E4 /* NSString+GuanG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+GuanG.h"; sourceTree = "<group>"; };
 		2229C969228A595900B843E4 /* NSString+GuanG.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+GuanG.m"; sourceTree = "<group>"; };
 		2229C96C228A59AE00B843E4 /* GGToolKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGToolKit.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 			children = (
 				2229C968228A595900B843E4 /* NSString+GuanG.h */,
 				2229C969228A595900B843E4 /* NSString+GuanG.m */,
+				22275FCB228EB8440035F740 /* UITableView+GuanG.h */,
+				22275FCC228EB8440035F740 /* UITableView+GuanG.m */,
 			);
 			path = "分类";
 			sourceTree = "<group>";
@@ -421,6 +426,7 @@
 				2229C96E228A59AE00B843E4 /* GGToolKit.m in Sources */,
 				2249B3F22283D1C2005C4276 /* ViewController.m in Sources */,
 				2249B3FD2283D1C5005C4276 /* main.m in Sources */,
+				22275FCD228EB8440035F740 /* UITableView+GuanG.m in Sources */,
 				2249B3EF2283D1C2005C4276 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
