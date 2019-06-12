@@ -1,0 +1,22 @@
+PODS:
+  - GGComponent (0.1.0)
+  - GGLogining (0.1.0):
+    - GGComponent
+
+DEPENDENCIES:
+  - GGComponent (from `../../GGComponent`)
+  - GGLogining (from `../`)
+
+EXTERNAL SOURCES:
+  GGComponent:
+    :path: "../../GGComponent"
+  GGLogining:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GGComponent: 1268a0e1b3c18a78581ef991efbf1b06b3627779
+  GGLogining: f49828170ac5e89b487956654b53b1dcf0417df3
+
+PODFILE CHECKSUM: 663190ded16f446b20e5fca11de288275fcba87f
+
+COCOAPODS: 1.6.2

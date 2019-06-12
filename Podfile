@@ -4,7 +4,10 @@
 target 'GGTeStack' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
-  
+
+#本地组件化
+  pod 'GGComponent' , :path => 'Lib/GGComponent'
+  pod 'GGLogining' , :path => 'Lib/GGLogining'
   
   pod 'WoodPeckeriOS', :configurations => ['Debug']
   pod 'KVOController'
@@ -145,3 +148,6 @@ end
 #  pod 'HYBImageCliped'                    , '2.2.4'    #view的圆角处理 避免离屏渲染
 #  pod 'ZYCornerRadius'                    , '1.0.2'    #view的圆角处理 避免离屏渲染
 #  pod 'HJCornerRadius', :git => 'https://github.com/panghaijiao/HJCornerRadius.git'    #view的圆角处理 避免离屏渲染
+#  pod 'Aspects' #面向切面编程,它能允许你在每一个类和每一个实例中存在的方法里面加入任何代码
+#  pod 'pop', '~> 1.0'  #Facebook 开源的 POP 是一个在 iOS 与 OS X 上通用的极具扩展性的动画引擎，它在基本的静态动画的基础上增加的弹簧动画与衰减动画。
+#  pod "CTMediator"

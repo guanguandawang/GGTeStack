@@ -1,0 +1,16 @@
+PODS:
+  - GGComponent (0.1.0)
+
+DEPENDENCIES:
+  - GGComponent (from `../`)
+
+EXTERNAL SOURCES:
+  GGComponent:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GGComponent: 1268a0e1b3c18a78581ef991efbf1b06b3627779
+
+PODFILE CHECKSUM: 57fab1e50e20b5b1107eab79c7582359c53230af
+
+COCOAPODS: 1.6.2

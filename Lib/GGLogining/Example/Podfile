@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'GGLogining_Example' do
+  pod 'GGLogining', :path => '../'
+  pod 'GGComponent', :path => '../../GGComponent'
+  
+  target 'GGLogining_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

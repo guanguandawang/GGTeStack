@@ -385,7 +385,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-GGTeStack/Pods-GGTeStack-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-GGTeStack/Pods-GGTeStack-frameworks.sh",
 				"${PODS_ROOT}/WoodPeckeriOS/WoodPeckeriOS.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -394,7 +394,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GGTeStack/Pods-GGTeStack-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GGTeStack/Pods-GGTeStack-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7F550CF65C2D0B5AEE343312 /* [CP] Check Pods Manifest.lock */ = {

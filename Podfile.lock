@@ -14,11 +14,16 @@ PODS:
   - BlocksKit/UIKit (2.2.5):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
+  - GGComponent (0.1.0)
+  - GGLogining (0.1.0):
+    - GGComponent
   - KVOController (1.2.0)
   - WoodPeckeriOS (1.2.0)
 
 DEPENDENCIES:
   - BlocksKit
+  - GGComponent (from `Lib/GGComponent`)
+  - GGLogining (from `Lib/GGLogining`)
   - KVOController
   - WoodPeckeriOS
 
@@ -28,11 +33,19 @@ SPEC REPOS:
     - KVOController
     - WoodPeckeriOS
 
+EXTERNAL SOURCES:
+  GGComponent:
+    :path: Lib/GGComponent
+  GGLogining:
+    :path: Lib/GGLogining
+
 SPEC CHECKSUMS:
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  GGComponent: 1268a0e1b3c18a78581ef991efbf1b06b3627779
+  GGLogining: f49828170ac5e89b487956654b53b1dcf0417df3
   KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
   WoodPeckeriOS: 7fabf5c25fe5da854a662da0a4455e45b9cd2a3c
 
-PODFILE CHECKSUM: 2158fd75021e2df4ffac21c022576e711444e51a
+PODFILE CHECKSUM: 0a8f2b93a9c2c1bc5c62ff8e553c2b8630617d0b
 
-COCOAPODS: 1.5.2
+COCOAPODS: 1.6.2

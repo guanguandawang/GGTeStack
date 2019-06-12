@@ -1,0 +1,6 @@
+framework module GGLogining {
+  umbrella header "GGLogining-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "GGHome",
+  "version": "0.1.0",
+  "summary": "A short description of GGHome.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/GuanG/GGHome",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "GuanG": "g.ggg.g@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/GuanG/GGHome.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GGHome/Classes/**/*"
+}

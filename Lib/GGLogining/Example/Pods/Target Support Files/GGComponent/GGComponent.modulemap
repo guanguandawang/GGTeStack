@@ -1,0 +1,6 @@
+framework module GGComponent {
+  umbrella header "GGComponent-umbrella.h"
+
+  export *
+  module * { export * }
+}

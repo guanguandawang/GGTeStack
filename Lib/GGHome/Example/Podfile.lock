@@ -1,0 +1,16 @@
+PODS:
+  - GGHome (0.1.0)
+
+DEPENDENCIES:
+  - GGHome (from `../`)
+
+EXTERNAL SOURCES:
+  GGHome:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GGHome: 84f2967648bbd03d95c8e42e26bd08347e862b04
+
+PODFILE CHECKSUM: 2aea6e086dce2213fa2b1cc60fa30b1753de0996
+
+COCOAPODS: 1.6.2

@@ -1,8 +1,6 @@
 FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/WoodPeckeriOS"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/BlocksKit" "${PODS_ROOT}/Headers/Public/KVOController" "${PODS_ROOT}/Headers/Public/WoodPeckeriOS"
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/BlocksKit" "${PODS_CONFIGURATION_BUILD_DIR}/KVOController"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/BlocksKit" -isystem "${PODS_ROOT}/Headers/Public/KVOController" -isystem "${PODS_ROOT}/Headers/Public/WoodPeckeriOS"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/BlocksKit" "${PODS_ROOT}/Headers/Public/GGComponent" "${PODS_ROOT}/Headers/Public/GGLogining" "${PODS_ROOT}/Headers/Public/KVOController"
 OTHER_LDFLAGS = $(inherited) -ObjC -framework "MessageUI" -framework "WoodPeckeriOS"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)

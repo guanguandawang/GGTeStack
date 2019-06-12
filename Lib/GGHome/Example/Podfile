@@ -1,0 +1,6 @@
+use_frameworks!
+target 'GGHome_Tests' do
+  pod 'GGHome', :path => '../'
+  
+  
+end
